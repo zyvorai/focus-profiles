@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "name": "Project Atlas",
+  "symbol": "briefcase",
+  "shortcut": { "keyCode": 18, "modifiers": 6400 },
+  "windows": [
+    { "bundleID": "com.apple.Terminal", "x": 0, "y": 0, "width": 0.5, "height": 1 },
+    { "bundleID": "com.apple.Safari", "x": 0.5, "y": 0, "width": 0.5, "height": 1 }
+  ],
+  "terminals": [ { "app": "terminal", "directory": "~/code/atlas", "command": "git status" } ],
+  "browsers": [ { "app": "safari", "urls": ["https://example.com/board"] } ],
+  "vpn": { "service": "Corp VPN", "connect": true },
+  "kubeContext": "atlas-staging"
+}
