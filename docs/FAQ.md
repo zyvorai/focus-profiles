@@ -6,7 +6,7 @@
 
 **Does it work without a licence key?** Yes. Everything works and a status line says "Unlicensed". For a free 30-day trial key write to sales@zyvor.dev. See [Licence and trial](LICENSING.md).
 
-**What does it cost?** Prices are not published yet. Contact sales@zyvor.dev.
+**What does it cost?** Price: ₹1,999 per Mac, one-time, including GST and one year of updates (about US$20). Teams of 5 or more Macs: ₹1,699 per Mac, by invoice. Contact sales@zyvor.dev.
 
 **Which permissions does it need?** Accessibility for window layout and Automation for Terminal, iTerm2, Safari and Google Chrome. Neither is requested up front, and if you deny one only the affected steps are skipped. See [Permissions](PERMISSIONS.md).
 

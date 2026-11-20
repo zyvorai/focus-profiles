@@ -16,7 +16,7 @@ While a trial or paid key is active, the status line shows the days left, for ex
 
 ## Paid licences
 
-To buy a licence, contact **sales@zyvor.dev**. Prices are not published yet.
+To buy a licence, contact **sales@zyvor.dev**. Price: ₹1,999 per Mac, one-time, including GST and one year of updates (about US$20). Teams of 5 or more Macs: ₹1,699 per Mac, by invoice.
 
 ## Remove a key
 
