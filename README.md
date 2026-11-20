@@ -74,7 +74,7 @@ Version 0.1.0 is a first release. Real window moves and the macOS permission pro
 ## Trial and licence
 
 - Focus Profiles is a paid app with a free 30-day trial. **It never disables a feature**: without a key everything works and a status line says so.
-- **Free 30-day trial key, or a paid licence: sales@zyvor.dev.** Prices are not published yet.
+- **Free 30-day trial key, or a paid licence: sales@zyvor.dev.** Price: ₹1,999 per Mac, one-time, including GST and one year of updates (about US$20). Teams of 5 or more Macs: ₹1,699 per Mac, by invoice.
 - Terms: [Zyvor Production License v1.0](LICENSE). See also [NOTICE](NOTICE) and [docs/LICENSING.md](docs/LICENSING.md).
 
 ## Documentation
