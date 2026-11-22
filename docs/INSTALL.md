@@ -32,7 +32,7 @@ Next: [profiles](PROFILES.md), then [dry run](DRY-RUN.md) to preview a switch.
 
 ## Licence key (optional)
 
-The app works without a key. For a free 30-day trial key write to **sales@zyvor.dev**, then choose **Licence…** in the menu, paste the key and press **Verify and Save**. See [Licence and trial](LICENSING.md).
+The app works without a key. For a 30-day trial key write to **sales@zyvor.dev**, then choose **Licence…** in the menu, paste the key and press **Verify and Save**. See [Licence and trial](LICENSING.md).
 
 ## Uninstall
 
