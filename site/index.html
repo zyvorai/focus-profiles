@@ -28,8 +28,9 @@
 <meta name="twitter:image" content="https://zyvorai.github.io/focus-profiles/social/og.png">
 <meta name="twitter:image:alt" content="Focus Profiles: one hotkey, your whole working setup. The profile editor is shown with sample data.">
 <link rel="stylesheet" href="assets/landing.css">
+<link rel="stylesheet" href="assets/zyvor-buyer.css">
 <style>:root{--accent-btn:#5b46f0;--accent-ink:#5b46f0;--accent-grad-a:#7c6cff;--accent-grad-b:#b3a9ff}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--accent-ink:#a79bff}}:root[data-theme="dark"]{--accent-ink:#a79bff}</style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zyvor Focus Profiles","applicationCategory":"DeveloperApplication","operatingSystem":"macOS","softwareVersion":"0.1.0","downloadUrl":"https://github.com/zyvorai/focus-profiles/releases/tag/v0.1.0","url":"https://zyvorai.github.io/focus-profiles/","description":"Focus Profiles for macOS 27 or later: one hotkey per project switches window layout, terminal windows, browser tabs, VPN and kube context. Notarized download with a 30-day trial key.","image":"https://zyvorai.github.io/focus-profiles/social/og.png","publisher":{"@type":"Organization","name":"Zyvor AI Labs Private Limited","url":"https://zyvor.dev"},"offers":[{"@type":"Offer","name":"Focus Profiles (per Mac) (India, incl. 18% GST)","price":"1999","priceCurrency":"INR","url":"https://zyvor.dev/buy#focus-profiles"},{"@type":"Offer","name":"Focus Profiles (per Mac) (outside India, excl. tax)","price":"20","priceCurrency":"USD","url":"https://zyvor.dev/buy#focus-profiles"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zyvor Focus Profiles","applicationCategory":"DeveloperApplication","operatingSystem":"macOS","softwareVersion":"0.1.0","downloadUrl":"https://github.com/zyvorai/focus-profiles/releases/tag/v0.1.0","url":"https://zyvorai.github.io/focus-profiles/","description":"Focus Profiles for macOS 27 or later: one hotkey per project switches window layout, terminal windows, browser tabs, VPN and kube context. Notarized download with a 30-day trial key.","image":"https://zyvorai.github.io/focus-profiles/social/og.png","publisher":{"@type":"Organization","name":"Zyvor AI Labs Private Limited","url":"https://zyvor.dev"}}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -45,9 +46,22 @@
   <h1 id="top">Focus Profiles</h1>
   <p class="tagline">One hotkey. Your whole working setup.</p>
   <p class="promise"><strong>A per-project profile switcher for macOS.</strong> Press a hotkey and your window layout, Terminal or iTerm2 windows, Safari or Chrome tabs, VPN and kube context switch to the project you are working on. Profiles are plain JSON files, and a dry run shows what would happen before anything moves.</p>
-  <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/focus-profiles/releases/tag/v0.1.0">Download the 30-day trial</a><a class="textlink" href="#features">Learn more</a></p>
-  <p class="fine">macOS 27 or later · notarized · Free 30-day trial key: sales@zyvor.dev</p>
+  <div class="buyer" role="group" aria-label="Get Focus Profiles">
+    <div class="actions">
+      <a class="btn primary" href="https://github.com/zyvorai/focus-profiles/releases/download/v0.1.0/FocusProfiles-0.1.0.dmg">Download Focus Profiles 0.1.0</a>
+      <a class="btn ghost" href="https://zyvor.dev/contact?intent=trial&amp;product=focus-profiles" rel="noopener">Ask for a 30-day trial</a>
+      <a class="btn ghost" href="https://zyvor.dev/buy" rel="noopener">Buy a license</a>
+    </div>
+    <p class="sub">FocusProfiles-0.1.0.dmg · <a href="https://zyvor.dev/pricing" rel="noopener">See current prices</a> · <a href="https://github.com/zyvorai/focus-profiles/releases/tag/v0.1.0">All downloads</a></p>
+    <p class="trust"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><span><strong>Verified by Apple:</strong> Developer ID signed and notarized. This applies to the 0.1.0 DMG.</span></p>
+    <ul class="reqs"><li>Requires macOS 27 or later. Version 0.1.0 is a first release: see the honest limits below.</li></ul>
+  </div>
   <figure class="shot hero-shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/img/hero-img-dark-1200.webp 1200w" sizes="(min-width:1080px) 1040px, 100vw"><img src="assets/img/hero-img-light-1200.webp" srcset="assets/img/hero-img-light-1200.webp 1200w" sizes="(min-width:1080px) 1040px, 100vw" width="1240" height="940" alt="The Focus Profiles editor with sample data: a sidebar of profiles with hotkeys, and the Atlas backend profile showing its window layout, layout presets for each app, and a floating Dry Run and Switch Now bar." fetchpriority="high" decoding="async"></picture><figcaption>The profile editor. Sample data in a render of the app&#x27;s own views, not a live session.</figcaption></figure>
+</section>
+
+<section class="outcomes" aria-labelledby="outcomes-h">
+  <h2 id="outcomes-h">Switch your whole setup with one hotkey.</h2>
+  <ul class="tiles"><li class="tile"><h3>Every window where it belongs</h3><p>Place each app&#x27;s window as a fraction of the main display, pick a preset such as left half, or capture the frontmost window as you arranged it.</p></li><li class="tile"><h3>The rest of your setup, in one step</h3><p>Open Terminal or iTerm2 windows in a folder, open Safari or Chrome tabs, connect a VPN service and switch your kube context.</p></li><li class="tile"><h3>See it before it happens</h3><p>A dry run lists every step and anything that would be skipped. It moves nothing, launches nothing and prompts for nothing.</p></li></ul>
 </section>
 
 <section class="band" aria-label="Overview">
@@ -86,20 +100,17 @@
   <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/focus-profiles/releases/download/v0.1.0/FocusProfiles-0.1.0.dmg">Download FocusProfiles-0.1.0.dmg</a><a class="textlink" href="https://github.com/zyvorai/focus-profiles/releases/tag/v0.1.0">Release page</a><a class="textlink" href="https://github.com/zyvorai/focus-profiles/blob/main/docs/INSTALL.md">Install guide</a></p>
 </section>
 
-<section class="pricing" id="pricing" aria-labelledby="pricing-h">
-  <div class="inner">
-  <h2 id="pricing-h" style="text-align:left">Trial and licence.</h2>
-  <p class="lead">Focus Profiles is a paid app with a 30-day trial, and <b>it never disables a feature</b>. Without a key everything works and the menu shows an <i>Unlicensed</i> status line. For a free 30-day trial key, or to buy a licence, write to <a href="mailto:sales@zyvor.dev?subject=Focus%20Profiles%20licence">sales@zyvor.dev</a>. Price: INR 1,999 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$20 excl. tax outside India). Teams of 5 or more Macs: INR 1,699 per Mac (about US$17 excl. tax), minimum 5 Macs (INR 8,495, about US$86), by invoice.</p>
-  <p class="fine">Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees); or request a US-dollar invoice by bank transfer. Custom pricing: contact sales@zyvor.dev.</p>
-  <p class="cta"><a class="btn primary" href="https://zyvor.dev/buy#focus-profiles" rel="noopener">Buy Focus Profiles</a><a class="btn ghost" href="mailto:sales@zyvor.dev?subject=Focus%20Profiles%2030-day%20trial%20key">Start 30-day trial</a></p>
-<p class="fine"><a href="https://github.com/zyvorai/focus-profiles/blob/main/docs/LICENSING.md">How the trial and the status line work</a> · <a href="https://github.com/zyvorai/focus-profiles/blob/main/LICENSE">Zyvor Production License v1.0</a></p>
-  </div>
+<section class="buy-pointer" id="pricing" aria-labelledby="pricing-h">
+  <h2 id="pricing-h">Prices and licenses</h2>
+  <p>Current prices, in your currency where available, are on zyvor.dev. You can evaluate for 30 days before you decide.</p>
+  <p class="cta"><a class="btn primary" href="https://zyvor.dev/buy" rel="noopener">Buy a license</a><a class="btn ghost" href="https://zyvor.dev/contact?intent=trial&amp;product=focus-profiles" rel="noopener">Ask for a 30-day trial</a><a class="textlink" href="https://zyvor.dev/pricing" rel="noopener">See current prices</a></p>
+  <p class="fine"><a href="https://github.com/zyvorai/focus-profiles/blob/main/LICENSE">LICENSE</a> · Several Macs or a larger rollout: <a href="https://zyvor.dev/contact?intent=sales&amp;product=focus-profiles" rel="noopener">contact sales</a>.</p>
 </section>
 
 <section class="faq" id="faq" aria-labelledby="faq-h">
   <h2 id="faq-h">Questions, answered.</h2>
   <details><summary>Does it work without a licence key?</summary><p>Yes. Everything works, and the menu and Licence window show a status line that says it is unlicensed. For a free 30-day trial key write to sales@zyvor.dev.</p></details>
-<details><summary>What does it cost?</summary><p>Price: INR 1,999 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$20 excl. tax outside India). Teams of 5 or more Macs: INR 1,699 per Mac (about US$17 excl. tax), minimum 5 Macs (INR 8,495, about US$86), by invoice. Write to sales@zyvor.dev.</p></details>
+<details><summary>What does it cost?</summary><p>Current prices are on <a href="https://zyvor.dev/pricing" rel="noopener">zyvor.dev/pricing</a>. Teams and larger rollouts can <a href="https://zyvor.dev/contact?intent=sales&amp;product=focus-profiles" rel="noopener">contact sales</a>.</p></details>
 <details><summary>Which permissions does it need?</summary><p>Accessibility, to move and resize windows, and Automation, to have Terminal, iTerm2, Safari or Google Chrome open windows and tabs. Neither is requested up front. If you deny one, only the affected steps are skipped.</p></details>
 <details><summary>Can I preview a switch?</summary><p>Yes. A dry run lists what would happen and what would be skipped, and it moves nothing, launches nothing and prompts for nothing. Use the Dry Run button or FocusProfiles --dry-run in a terminal.</p></details>
 <details><summary>Is it safe to put commands in a profile?</summary><p>A command is typed into a new terminal window exactly as written, so it runs with your own rights. Only keep commands you trust in a profile.</p></details>
@@ -112,7 +123,7 @@
 </main>
 <footer class="footer">
   <p><strong>Zyvor Focus Profiles</strong> · The Focus Profiles source code is private.</p>
-  <p class="links"><a href="https://github.com/zyvorai/focus-profiles/tree/main/docs">Docs</a><a href="https://github.com/zyvorai/focus-profiles/blob/main/CHANGELOG.md">Changelog</a><a href="https://github.com/zyvorai/focus-profiles/releases/tag/v0.1.0">Release</a><a href="https://github.com/zyvorai/focus-profiles">GitHub</a><a href="https://github.com/zyvorai/focus-profiles/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/focus-profiles/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
+  <p class="links"><a href="https://zyvor.dev/contact">Support</a><a href="https://github.com/zyvorai/focus-profiles/tree/main/docs">Docs</a><a href="https://github.com/zyvorai/focus-profiles/blob/main/CHANGELOG.md">Changelog</a><a href="https://github.com/zyvorai/focus-profiles/releases/tag/v0.1.0">Release</a><a href="https://github.com/zyvorai/focus-profiles">GitHub</a><a href="https://github.com/zyvorai/focus-profiles/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/focus-profiles/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
   <p>© 2026 Zyvor AI Labs Private Limited · <a href="https://zyvor.dev">zyvor.dev</a> · Zyvor Production License v1.0</p>
 </footer>
 </body>
