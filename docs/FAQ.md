@@ -4,7 +4,7 @@
 
 **Which macOS versions?** macOS 27 or later.
 
-**Does it work without a licence key?** Yes. Everything works and a status line says "Unlicensed". For a free 30-day trial key write to sales@zyvor.dev. See [Licence and trial](LICENSING.md).
+**Does it work without a licence key?** Yes. Everything works and a status line says "Unlicensed". For a 30-day trial key write to sales@zyvor.dev. See [Licence and trial](LICENSING.md).
 
 **What does it cost?** Price: INR 1,999 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$20 excl. tax outside India). Teams of 5 or more Macs: INR 1,699 per Mac (about US$17 excl. tax), minimum 5 Macs (INR 8,495, about US$86), by invoice. Contact sales@zyvor.dev.
 

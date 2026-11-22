@@ -23,7 +23,7 @@ A per-project profile switcher for macOS. One hotkey sets your window layout, te
 | | |
 | --- | --- |
 | **Get it** | [Focus Profiles 0.1.0](https://github.com/zyvorai/focus-profiles/releases/tag/v0.1.0): `FocusProfiles-0.1.0.dmg` (the SHA-256 is in the release notes and in `FocusProfiles-0.1.0.dmg.sha256`) |
-| **Free 30-day trial key** | **sales@zyvor.dev** (the app also works without a key) |
+| **30-day trial key** | **sales@zyvor.dev** (the app also works without a key) |
 | **Requirements** | macOS 27 or later |
 | **Notarized** | Developer ID signed and notarized by Apple |
 
@@ -73,9 +73,9 @@ Version 0.1.0 is a first release. Real window moves and the macOS permission pro
 
 ## Trial and licence
 
-- Focus Profiles is a paid app with a free 30-day trial. **It never disables a feature**: without a key everything works and a status line says so.
-- **Free 30-day trial key, or a paid licence: sales@zyvor.dev.** Price: INR 1,999 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$20 excl. tax outside India). Teams of 5 or more Macs: INR 1,699 per Mac (about US$17 excl. tax), minimum 5 Macs (INR 8,495, about US$86), by invoice. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees). Orders of USD 5,000 or more and quotes are invoiced in USD through Skydo. Custom pricing: contact sales@zyvor.dev. Buy: [zyvor.dev/buy](https://zyvor.dev/buy#focus-profiles) (free 30-day trial first).
-- Terms: [Zyvor Production License v1.0](LICENSE). See also [NOTICE](NOTICE) and [docs/LICENSING.md](docs/LICENSING.md).
+- Focus Profiles is a paid app with a 30-day trial. **It never disables a feature**: without a key everything works and a status line says so.
+- **30-day trial key, or a paid licence: sales@zyvor.dev.** Price: INR 1,999 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$20 excl. tax outside India). Teams of 5 or more Macs: INR 1,699 per Mac (about US$17 excl. tax), minimum 5 Macs (INR 8,495, about US$86), by invoice. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Pay online by UPI, card or netbanking; international cards work (charged in rupees). Orders of USD 5,000 or more and quotes are invoiced in USD through Skydo. Custom pricing: contact sales@zyvor.dev. Buy: [zyvor.dev/buy](https://zyvor.dev/buy#focus-profiles) (30-day trial first).
+- Terms: [Zyvor Production Licence v2.0](LICENSE). See also [NOTICE](NOTICE) and [docs/LICENSING.md](docs/LICENSING.md).
 
 ## Documentation
 
